@@ -1,0 +1,24 @@
+{
+	"name": "clamodev/discord-php",
+	"description": "Discord API for PHP",
+	"keywords": ["discord"],
+	"homepage": "https://github.com/clamodev/discord-php",
+	"license": ["BSD-3-Clause", "GPL-2.0-only", "GPL-3.0-only"],
+	"authors": [
+		{
+			"name": "Marco Cusano",
+			"homepage": "https://github.com/marcocusano"
+		},
+		{
+			"name": "Valeriy Evstafev",
+			"homepage": "https://github.com/clamodev"
+		}
+	],
+	"require": {
+		"php": ">=8.0 <8.3"
+	},
+	"autoload": {
+		"classmap": ["Autoload.php"]
+	},
+	"minimum-stability": "dev"
+}
